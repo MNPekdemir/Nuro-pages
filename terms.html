@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dhikr Flow — Terms of Use</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-color: #080C14;
+      --card-bg: rgba(255, 255, 255, 0.03);
+      --card-border: rgba(255, 255, 255, 0.06);
+      --text-primary: #F1F5F9;
+      --text-secondary: #94A3B8;
+      --text-muted: #64748B;
+      --primary: #10B981;
+      --primary-hover: #34D399;
+      --primary-glow: rgba(16, 185, 129, 0.15);
+    }
+
+    @media (prefers-color-scheme: light) {
+      :root {
+        --bg-color: #F8FAFC;
+        --card-bg: #FFFFFF;
+        --card-border: rgba(15, 23, 42, 0.06);
+        --text-primary: #0F172A;
+        --text-secondary: #475569;
+        --text-muted: #64748B;
+        --primary: #059669;
+        --primary-hover: #10B981;
+        --primary-glow: rgba(5, 150, 105, 0.08);
+      }
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--bg-color);
+      color: var(--text-secondary);
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+      padding: 40px 20px 80px;
+    }
+
+    .container {
+      max-width: 680px;
+      margin: 0 auto;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 48px;
+    }
+
+    .logo-container {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 64px;
+      height: 64px;
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 16px;
+      margin-bottom: 20px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    .logo-svg {
+      width: 32px;
+      height: 32px;
+      fill: var(--primary);
+    }
+
+    h1 {
+      font-family: 'Outfit', sans-serif;
+      font-weight: 700;
+      font-size: 2.25rem;
+      color: var(--text-primary);
+      margin-bottom: 8px;
+      letter-spacing: -0.02em;
+    }
+
+    .subtitle {
+      font-size: 0.95rem;
+      color: var(--text-muted);
+    }
+
+    .intro {
+      font-size: 1.125rem;
+      color: var(--text-primary);
+      text-align: center;
+      margin-bottom: 40px;
+      font-weight: 500;
+    }
+
+    section {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 20px;
+      padding: 28px;
+      margin-bottom: 24px;
+      transition: transform 0.2s ease, border-color 0.2s ease;
+    }
+
+    section:hover {
+      border-color: rgba(16, 185, 129, 0.3);
+    }
+
+    .section-header {
+      display: flex;
+      align-items: center;
+      margin-bottom: 14px;
+    }
+
+    .icon-wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 36px;
+      height: 36px;
+      background: var(--primary-glow);
+      border-radius: 10px;
+      margin-right: 14px;
+      color: var(--primary);
+    }
+
+    .icon-wrapper svg {
+      width: 20px;
+      height: 20px;
+    }
+
+    h2 {
+      font-family: 'Outfit', sans-serif;
+      font-weight: 600;
+      font-size: 1.25rem;
+      color: var(--text-primary);
+      letter-spacing: -0.01em;
+    }
+
+    p {
+      font-size: 0.975rem;
+      color: var(--text-secondary);
+      margin-bottom: 12px;
+    }
+
+    p:last-child {
+      margin-bottom: 0;
+    }
+
+    strong {
+      color: var(--text-primary);
+      font-weight: 600;
+    }
+
+    a {
+      color: var(--primary);
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.2s ease;
+    }
+
+    a:hover {
+      color: var(--primary-hover);
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 48px;
+      padding-top: 24px;
+      border-top: 1px solid var(--card-border);
+      font-size: 0.875rem;
+      color: var(--text-muted);
+    }
+
+    .nav-links {
+      display: flex;
+      justify-content: center;
+      gap: 16px;
+      margin-bottom: 12px;
+    }
+
+    .nav-links a {
+      color: var(--text-muted);
+    }
+
+    .nav-links a:hover {
+      color: var(--primary);
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo-container">
+        <!-- Minimalist Dhikr Flow Glowing Logo -->
+        <svg class="logo-svg" viewBox="0 0 24 24">
+          <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/>
+        </svg>
+      </div>
+      <h1>Terms of Use</h1>
+      <p class="subtitle">Dhikr Flow &bull; Last updated: 1 July 2026</p>
+    </header>
+
+    <p class="intro">Dhikr Flow is provided as-is, free of charge, for personal use.</p>
+
+    <main>
+      <!-- Section: Service Overview -->
+      <section>
+        <div class="section-header">
+          <div class="icon-wrapper">
+            <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+            </svg>
+          </div>
+          <h2>General Use</h2>
+        </div>
+        <p>The app works fully offline and does not require an account. All data remains on your local device. We are not responsible for backup or recovery of your data if you delete the app or lose your device.</p>
+      </section>
+
+      <!-- Section: Voluntary Support -->
+      <section>
+        <div class="section-header">
+          <div class="icon-wrapper">
+            <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+            </svg>
+          </div>
+          <h2>Voluntary Support</h2>
+        </div>
+        <p>Optional "supporter" purchases are completely voluntary and are processed securely by Google Play (or the App Store). These purchases do <strong>not</strong> unlock or gate any premium features — every feature in Dhikr Flow is, and will remain, available for free to all users.</p>
+      </section>
+
+      <!-- Section: Worship Aid Disclaimer -->
+      <section>
+        <div class="section-header">
+          <div class="icon-wrapper">
+            <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path>
+            </svg>
+          </div>
+          <h2>Personal Worship Aid Only</h2>
+        </div>
+        <p>Dhikr Flow is designed as a personal worship aid for convenience and tracking. Preset names, transliterations, translations, and sûrah/duâ contents are provided for reference only. It does not constitute a source of religious rulings (fatwas). Please consult reliable scholarly sources for formal religious guidance.</p>
+      </section>
+
+      <!-- Section: Disclaimers & Warranty -->
+      <section>
+        <div class="section-header">
+          <div class="icon-wrapper">
+            <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M18.364 18.364A9 9 0 005.636 5.636m12.728 12.728A9 9 0 015.636 5.636m12.728 12.728L5.636 5.636"></path>
+            </svg>
+          </div>
+          <h2>No Warranty</h2>
+        </div>
+        <p>We do our best to maintain the stability and accuracy of the app. However, the app is provided "as is" without warranty of any kind. You are solely responsible for your use of the application.</p>
+      </section>
+
+      <!-- Section: Agreements -->
+      <section>
+        <div class="section-header">
+          <div class="icon-wrapper">
+            <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+            </svg>
+          </div>
+          <h2>Agreement</h2>
+        </div>
+        <p>By using Dhikr Flow, you agree to be bound by these terms. If you have questions, please reach out to us by email at <a href="mailto:mnpekdemir.apps@gmail.com">mnpekdemir.apps@gmail.com</a>.</p>
+      </section>
+    </main>
+
+    <footer>
+      <div class="nav-links">
+        <a href="privacy.html">Privacy Policy</a>
+      </div>
+      <p>&copy; 2026 Dhikr Flow. All rights reserved.</p>
+    </footer>
+  </div>
+</body>
+</html>

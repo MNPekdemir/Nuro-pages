@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dhikr Flow — Privacy Policy</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-color: #080C14;
+      --card-bg: rgba(255, 255, 255, 0.03);
+      --card-border: rgba(255, 255, 255, 0.06);
+      --text-primary: #F1F5F9;
+      --text-secondary: #94A3B8;
+      --text-muted: #64748B;
+      --primary: #10B981;
+      --primary-hover: #34D399;
+      --primary-glow: rgba(16, 185, 129, 0.15);
+    }
+
+    @media (prefers-color-scheme: light) {
+      :root {
+        --bg-color: #F8FAFC;
+        --card-bg: #FFFFFF;
+        --card-border: rgba(15, 23, 42, 0.06);
+        --text-primary: #0F172A;
+        --text-secondary: #475569;
+        --text-muted: #64748B;
+        --primary: #059669;
+        --primary-hover: #10B981;
+        --primary-glow: rgba(5, 150, 105, 0.08);
+      }
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--bg-color);
+      color: var(--text-secondary);
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+      padding: 40px 20px 80px;
+    }
+
+    .container {
+      max-width: 680px;
+      margin: 0 auto;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 48px;
+    }
+
+    .logo-container {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 64px;
+      height: 64px;
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 16px;
+      margin-bottom: 20px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    .logo-svg {
+      width: 32px;
+      height: 32px;
+      fill: var(--primary);
+    }
+
+    h1 {
+      font-family: 'Outfit', sans-serif;
+      font-weight: 700;
+      font-size: 2.25rem;
+      color: var(--text-primary);
+      margin-bottom: 8px;
+      letter-spacing: -0.02em;
+    }
+
+    .subtitle {
+      font-size: 0.95rem;
+      color: var(--text-muted);
+    }
+
+    .intro {
+      font-size: 1.125rem;
+      color: var(--text-primary);
+      text-align: center;
+      margin-bottom: 40px;
+      font-weight: 500;
+    }
+
+    section {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 20px;
+      padding: 28px;
+      margin-bottom: 24px;
+      transition: transform 0.2s ease, border-color 0.2s ease;
+    }
+
+    section:hover {
+      border-color: rgba(16, 185, 129, 0.3);
+    }
+
+    .section-header {
+      display: flex;
+      align-items: center;
+      margin-bottom: 14px;
+    }
+
+    .icon-wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 36px;
+      height: 36px;
+      background: var(--primary-glow);
+      border-radius: 10px;
+      margin-right: 14px;
+      color: var(--primary);
+    }
+
+    .icon-wrapper svg {
+      width: 20px;
+      height: 20px;
+    }
+
+    h2 {
+      font-family: 'Outfit', sans-serif;
+      font-weight: 600;
+      font-size: 1.25rem;
+      color: var(--text-primary);
+      letter-spacing: -0.01em;
+    }
+
+    p {
+      font-size: 0.975rem;
+      color: var(--text-secondary);
+    }
+
+    strong {
+      color: var(--text-primary);
+      font-weight: 600;
+    }
+
+    a {
+      color: var(--primary);
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.2s ease;
+    }
+
+    a:hover {
+      color: var(--primary-hover);
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 48px;
+      padding-top: 24px;
+      border-top: 1px solid var(--card-border);
+      font-size: 0.875rem;
+      color: var(--text-muted);
+    }
+
+    .nav-links {
+      display: flex;
+      justify-content: center;
+      gap: 16px;
+      margin-bottom: 12px;
+    }
+
+    .nav-links a {
+      color: var(--text-muted);
+    }
+
+    .nav-links a:hover {
+      color: var(--primary);
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo-container">
+        <!-- Minimalist Dhikr Flow Glowing Logo -->
+        <svg class="logo-svg" viewBox="0 0 24 24">
+          <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/>
+        </svg>
+      </div>
+      <h1>Privacy Policy</h1>
+      <p class="subtitle">Dhikr Flow &bull; Last updated: 1 July 2026</p>
+    </header>
+
+    <p class="intro">Dhikr Flow is built to respect your privacy. It is a local-first, offline, ad-free app.</p>
+
+    <main>
+      <!-- Section: What We Store -->
+      <section>
+        <div class="section-header">
+          <div class="icon-wrapper">
+            <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M8 7v8a2 2 0 002 2h6M8 7V5a2 2 0 012-2h4.586a1 1 0 01.707.293l4.414 4.414a1 1 0 01.293.707V15a2 2 0 01-2 2h-2M8 7H6a2 2 0 00-2 2v10a2 2 0 002 2h8a2 2 0 002-2v-2"></path>
+            </svg>
+          </div>
+          <h2>What we store</h2>
+        </div>
+        <p>Your dhikr list, counter sessions, statistics, settings, <strong>Esma plans</strong>, and <strong>dua journal notes</strong> are stored <strong>only on your device</strong>. We do not collect personal data, and there is no account to create. Notes you mark as "private" can be protected with a local PIN that never leaves the device.</p>
+      </section>
+
+      <!-- Section: No Ads, No Tracking -->
+      <section>
+        <div class="section-header">
+          <div class="icon-wrapper">
+            <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
+            </svg>
+          </div>
+          <h2>No ads, no tracking</h2>
+        </div>
+        <p>The app contains no advertising SDKs and no third-party analytics. Your dhikr, plan, and dua activity never leaves your device.</p>
+      </section>
+
+      <!-- Section: Purchases -->
+      <section>
+        <div class="section-header">
+          <div class="icon-wrapper">
+            <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"></path>
+            </svg>
+          </div>
+          <h2>Purchases</h2>
+        </div>
+        <p>Optional "supporter" purchases are handled entirely by Google Play (or the App Store). We never see your payment details, and purchases do not unlock or gate any feature.</p>
+      </section>
+
+      <!-- Section: Notifications -->
+      <section>
+        <div class="section-header">
+          <div class="icon-wrapper">
+            <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9"></path>
+            </svg>
+          </div>
+          <h2>Notifications</h2>
+        </div>
+        <p>Optional daily reminders are scheduled locally on your device and require no server connection.</p>
+      </section>
+
+      <!-- Section: Your Control -->
+      <section>
+        <div class="section-header">
+          <div class="icon-wrapper">
+            <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"></path>
+              <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
+            </svg>
+          </div>
+          <h2>Your control</h2>
+        </div>
+        <p>You can export or permanently delete all of your data at any time from <em>Settings &rarr; Data</em>. Uninstalling the app also removes all stored data.</p>
+      </section>
+
+      <!-- Section: Children -->
+      <section>
+        <div class="section-header">
+          <div class="icon-wrapper">
+            <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+            </svg>
+          </div>
+          <h2>Children</h2>
+        </div>
+        <p>The app is suitable for all ages and does not knowingly collect any data from anyone.</p>
+      </section>
+
+      <!-- Section: Contact -->
+      <section>
+        <div class="section-header">
+          <div class="icon-wrapper">
+            <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+            </svg>
+          </div>
+          <h2>Contact</h2>
+        </div>
+        <p>Questions? Contact us by emailing <a href="mailto:mnpekdemir.apps@gmail.com">mnpekdemir.apps@gmail.com</a>.</p>
+      </section>
+    </main>
+
+    <footer>
+      <div class="nav-links">
+        <a href="terms.html">Terms of Use</a>
+      </div>
+      <p>&copy; 2026 Dhikr Flow. All rights reserved.</p>
+    </footer>
+  </div>
+</body>
+</html>
